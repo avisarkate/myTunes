@@ -1,0 +1,207 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: #252529;
+  margin: 0;
+  color: #fff;
+  line-height: 1.6;
+}
+#showcase {
+  margin: 0;
+  padding: 0;
+  background: url(https://images.unsplash.com/photo-1530022351670-4caa0efc0b4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)
+    no-repeat center/cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+nav {
+  margin-top: 0px;
+  background-color: rgb(41, 41, 41);
+  height: 15%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+ 
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+  padding-right: 30px;
+  font-size: 15px;
+  list-style: none;
+}
+nav ul a:hover{
+  color: gray;
+  transition: 0.5s;
+  
+}
+.firstpage {
+  position: relative;
+  top: 20%;
+  text-align: center;
+}
+.firstpage h1 {
+  font-size: 45px;
+}
+.firstpage h3 {
+  font-size: 25px;
+}
+
+/* second page */
+#secondpage{
+   text-align: center;
+   font-size:  12px;
+
+}
+#secondpage h1 {
+    font-size:25px;
+}
+#secondpage h2 {
+    font-size:20px;
+}
+#secondpage p{
+    font-size:14px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#button a{
+   text-decoration: none;
+    background-color: rgb(192, 12, 12);
+    color: white;
+    padding: 15px;
+}
+
+#thirdpage h3{
+    font-size: 12px;
+    text-align: center
+}
+#thirdpage img{
+width: 100%;
+}
+#forthpage{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+#forthpage img{
+  width: 100%;
+}
+#forthpage a{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(10, 10, 43);
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+#forthpage a:hover{
+ transform: scale(0.8,0.5);
+ transition: 0.5s
+}
+@media (max-width: 500px) {
+    img{
+        display:block;
+        width: 100%;
+    }
+    #sixthpage{
+        display: block;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: block;
+    width: 100%;
+  }
+  
+}
+
+  .fifthpage{
+      background-image: url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      text-align: center;
+  }
+  
+  #sixthpage {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: whitesmoke;
+    
+  }
+  .imgside{
+      flex: 1;
+      box-sizing: border-box;
+  }
+  .imgside img{
+      width: 100%;
+  }
+  #textside{
+      flex: 1;
+      color: rgb(39, 39, 39);
+      text-align: left;
+  }
+  #gift{
+      text-align: left;
+      font-size: 15px;
+  }
+  #textside p{
+      font-size: 15px;
+  }
+  #textside a{
+      text-decoration: none;
+      font-size: 15px;
+      color: rgb(24, 23, 23);
+  }
+
+
+  /* Footer */
+  footer{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    
+  }
+  .shop{
+    flex: 1;
+    margin-right: 20px;
+    font-size: 10px;
+  }
+
+  .shop a {
+    text-decoration: none;
+  color: white;
+
+  }
+  .shop a:hover {
+  color:gray;
+  transition: 0.5s;
+  border-bottom: 1px solid;
+}
+  .shop h3{
+    text-align: center;
+  }
+  .copyright{
+    background-color: rgb(31, 27, 27);
+    color: rgb(209, 209, 209);
+    font-size: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-family: 'Yomogi', cursive;
+    text-align: center;
+  
+  }
